@@ -4,6 +4,20 @@ Step-by-step PAI installation. No shortcuts. Fully-featured workspace.
 
 ---
 
+## Environment Detection
+
+**Running in GitHub Codespaces or cloud container?**
+
+Check: `echo $CODESPACES` — if it returns `true`, use the [Codespaces Setup](Codespaces.md) workflow instead.
+
+| Environment | Workflow | Voice Support |
+|-------------|----------|---------------|
+| **Codespaces / Cloud** | [Codespaces.md](Codespaces.md) | ❌ No audio device |
+| **Local macOS** | This file (Setup.md) | ✅ Full voice |
+| **Local Linux** | This file (Setup.md) | ❌ Voice auto-skipped |
+
+---
+
 ## Before Each Step
 
 ### For the Guide (AI)

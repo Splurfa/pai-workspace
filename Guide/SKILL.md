@@ -91,6 +91,7 @@ AI: "The symlink makes ~/.claude point to ~/PAI/.claude, so Claude Code
 | Workflow | Trigger | Mode | File |
 |----------|---------|------|------|
 | **Setup** | "start setup", "install PAI", "next step" | EXECUTE | `workflows/Setup.md` |
+| **Codespaces** | "codespaces setup", "cloud setup", "remote setup" | EXECUTE | `workflows/Codespaces.md` |
 | **Status** | "where am I", "progress", "what's done" | EXPLAIN | `workflows/Status.md` |
 | **Verify** | "check", "verify", "did I do it right" | EXECUTE | `workflows/Verify.md` |
 

@@ -2,6 +2,17 @@
 
 **Phase:** 2 — Configuration
 **Updated:** 2024-12-24
+**Environment:** Local macOS | Local Linux | Codespaces _(circle one)_
+
+---
+
+## Environment Notes
+
+| Environment | Voice System | Setup Workflow |
+|-------------|--------------|----------------|
+| **Local macOS** | ✅ Full support | `workflows/Setup.md` |
+| **Local Linux** | ❌ Auto-skipped | `workflows/Setup.md` |
+| **Codespaces** | ❌ No audio device | `workflows/Codespaces.md` |
 
 ---
 
@@ -48,6 +59,8 @@ These guide every decision. Refer to `Principles.md` for full details.
 ---
 
 ## Phase 3: Voice System
+
+_**Codespaces/Linux:** Skip this phase — no audio device available._
 
 - [ ] Install voice server: `cd ~/.claude/voice-server && ./install.sh`
 - [ ] Verify health endpoint: `curl http://localhost:8888/health`

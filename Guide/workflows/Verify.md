@@ -39,6 +39,47 @@ Always explain the dependency context before providing fixes.
 
 ---
 
+## Codespaces Environment
+
+If running in Codespaces (`echo $CODESPACES` returns `true`), use these adjusted checks:
+
+### Codespaces Quick Checks
+
+```bash
+# Environment detection
+echo $CODESPACES        # Should be "true"
+
+# Bun installed
+which bun               # Should show path
+
+# PAI_DIR set
+echo $PAI_DIR           # Should show ~/.claude or path
+
+# DA configured
+echo $DA                # Should show assistant name
+```
+
+### What to Skip in Codespaces
+
+| Check | Status | Reason |
+|-------|--------|--------|
+| Voice server health | ⏭️ Skip | No audio device |
+| Port 8888 in use | ⏭️ Skip | Voice server not running |
+| ElevenLabs API key | ⏭️ Skip | Voice disabled |
+| Test voice notification | ⏭️ Skip | No audio output |
+
+### What Still Applies
+
+| Check | Command |
+|-------|---------|
+| Symlink correct | `ls -la ~/.claude` |
+| Environment vars | `echo "PAI_DIR=$PAI_DIR DA=$DA"` |
+| Settings.json valid | `cat ~/.claude/settings.json \| python3 -m json.tool` |
+| History directories | `ls ~/.claude/History/` |
+| Hooks registered | `grep "SessionStart" ~/.claude/settings.json` |
+
+---
+
 ## Process
 
 1. Identify what user wants to verify

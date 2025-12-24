@@ -134,3 +134,61 @@ How dependencies cascade into higher-order outcomes.
 1st order: Skills activate based on intent matching
 2nd order: Custom skills can be created following the same pattern
 3rd order: PAI infrastructure extends to new domains
+
+---
+
+## Environment-Specific Dependencies
+
+### Codespaces / Linux Environment
+
+When running in GitHub Codespaces or Linux, the dependency chain changes:
+
+```
+Clone PAI
+    └─► Symlink
+            └─► Bootstrap (--skip-voice auto-applied)
+                    └─► Everything EXCEPT voice
+```
+
+**What's Removed:**
+```
+.env (ELEVENLABS keys)
+    └─► Voice server install        ← SKIPPED
+            └─► Health check        ← SKIPPED
+                    └─► Hooks can notify  ← DISABLED
+```
+
+**What Remains Unchanged:**
+```
+settings.json (hooks config)
+    └─► Hook scripts exist
+            └─► History directories exist
+                    └─► Hooks can:
+                            ├─► Capture sessions  ✅
+                            ├─► Log all events    ✅
+                            └─► Update tabs       ✅
+```
+
+### Codespaces Order Effects
+
+**Without audio device (Codespaces/Linux):**
+- Voice server cannot produce sound
+- Stop hooks still execute (no audio output)
+- All non-voice features work identically
+- History capture, skills, agents unaffected
+
+**Without persistent storage (Codespaces):**
+- History captured during session
+- Lost on container restart unless committed
+- Use GitHub Dotfiles for shell config persistence
+- Store API keys in Codespaces Secrets
+
+### Feature Parity Summary
+
+| Feature | Local macOS | Codespaces |
+|---------|-------------|------------|
+| Skills | ✅ | ✅ |
+| Agents | ✅ | ✅ |
+| Hooks | ✅ | ✅ |
+| History | ✅ | ✅ (ephemeral) |
+| Voice | ✅ | ❌ |
