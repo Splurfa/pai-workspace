@@ -1,7 +1,7 @@
 # PAI Setup Progress
 
-**Phase:** Not Started
-**Updated:** YYYY-MM-DD
+**Phase:** 1 — Installation
+**Updated:** 2024-12-24
 
 ---
 
@@ -27,10 +27,10 @@ These guide every decision. Refer to `Principles.md` for full details.
 
 ## Phase 1: Installation
 
-- [ ] Back up existing ~/.claude (if any)
-- [ ] Remove existing ~/.claude directory
-- [ ] Clone PAI repository to ~/PAI
-- [ ] Create symlink: ~/.claude → ~/PAI/.claude
+- [x] Back up existing ~/.claude (if any) — skipped, fresh start
+- [x] Remove existing ~/.claude directory
+- [x] Clone PAI repository to ~/PAI
+- [x] Create symlink: ~/.claude → ~/PAI/.claude
 - [ ] Run bootstrap wizard: `~/.claude/Tools/setup/bootstrap.sh`
 - [ ] Reload shell: `source ~/.zshrc`
 
