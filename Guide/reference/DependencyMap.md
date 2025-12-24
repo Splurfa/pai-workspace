@@ -1,4 +1,6 @@
-# Context Workflow
+# Dependency Map
+
+<!-- MODE: EXPLANATION ONLY - Describe relationships factually, no recommendations -->
 
 Show dependencies, order-of-operations, and cascading effects.
 
@@ -83,46 +85,52 @@ Agents/*.md definitions
 
 ---
 
-## Why Order Matters
+## Order Effects
 
-### If you skip voice server:
-- Hooks try to POST to localhost:8888
-- Requests fail silently
-- No completion announcements
-- You don't know when tasks finish
+These describe what happens when components are absent. This is factual description, not recommendation.
 
-### If you skip symlink:
-- Claude Code can't find ~/.claude
-- No skills load
-- No hooks fire
-- PAI doesn't exist to Claude
+### Without voice server running:
+- Hooks POST to localhost:8888
+- No listener receives the request
+- Requests fail silently (no error visible)
+- Task completions appear only in terminal output
 
-### If hooks aren't configured:
-- No automatic capture
-- No session summaries
-- No voice feedback
-- History stays empty
+### Without symlink configured:
+- Claude Code looks for ~/.claude
+- Path doesn't exist or points elsewhere
+- Skills don't load (no SKILL.md found)
+- Hooks don't fire (no hooks directory)
+- PAI infrastructure is invisible to Claude
 
-### If .env missing keys:
-- Voice server starts but can't synthesize
-- Research agents can't call APIs
-- Features silently degrade
+### Without hooks enabled:
+- No automatic event capture
+- Session summaries don't generate
+- Voice feedback doesn't trigger
+- History directories remain empty
+
+### Without .env API keys:
+- Voice server starts (port 8888 active)
+- Synthesis requests fail (no ElevenLabs auth)
+- Research agents can't authenticate to external APIs
+- Features degrade without error messages
 
 ---
 
 ## 2nd/3rd Order Effects
 
-### Voice Server → Productivity
-1st: You hear task completions
-2nd: You can work on other things while waiting
-3rd: Trust in system grows, you delegate more
+How dependencies cascade into higher-order outcomes.
 
-### History System → Learning
-1st: Sessions are captured
-2nd: You can search past work
-3rd: Patterns emerge, you improve workflows
+### Voice Server Chain
+1st order: Task completions produce audio announcements
+2nd order: Attention can shift away from terminal during long tasks
+3rd order: Delegation becomes viable for multi-step workflows
 
-### Skill System → Scaling
-1st: Skills activate on intent
-2nd: You create custom skills
-3rd: Your PAI becomes uniquely yours
+### History System Chain
+1st order: Sessions, learnings, and outputs are captured
+2nd order: Past work becomes searchable via /search-history
+3rd order: Patterns across sessions become visible for analysis
+
+### Skill System Chain
+1st order: Skills activate based on intent matching
+2nd order: Custom skills can be created following the same pattern
+3rd order: PAI infrastructure extends to new domains

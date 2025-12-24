@@ -4,13 +4,50 @@ Validate that setup steps completed correctly. Diagnose and fix issues.
 
 ---
 
+## Understanding-First Troubleshooting
+
+Before running commands or providing fixes, ensure understanding:
+
+### The Dependency Chain
+
+PAI components depend on each other in order:
+
+```
+1. ~/PAI exists (clone)
+   ↓
+2. ~/.claude → ~/PAI/.claude (symlink)
+   ↓
+3. Environment variables load ($PAI_DIR, $DA)
+   ↓
+4. settings.json is valid JSON
+   ↓
+5. Hooks can execute (bun installed, hooks registered)
+   ↓
+6. Voice server runs (port 8888, ElevenLabs key)
+   ↓
+7. History directories exist and are writable
+```
+
+**Key Insight:** Most failures trace back to broken dependencies upstream. If voice server fails, check hooks. If hooks fail, check settings.json. If settings.json fails, check symlink.
+
+### Verification vs Understanding
+
+- **Verification command** tells you IF something works
+- **Understanding** tells you WHY it might not work, WHERE to look, HOW to fix sustainably
+
+Always explain the dependency context before providing fixes.
+
+---
+
 ## Process
 
 1. Identify what user wants to verify
-2. Run verification command(s)
-3. Compare output to expected result
-4. If wrong: diagnose and provide fix
-5. If correct: update Progress.md checkbox
+2. **Explain what this component depends on** (reference dependency chain)
+3. Run verification command(s)
+4. Compare output to expected result
+5. If wrong: **explain the likely cause first**, then ask if user wants the fix
+6. If correct: ask if user wants to mark complete in Progress.md
+7. Wait for confirmation before acting
 
 ---
 
