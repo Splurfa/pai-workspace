@@ -1,6 +1,6 @@
 # PAI Setup Progress
 
-**Phase:** 1 — Installation
+**Phase:** 2 — Configuration
 **Updated:** 2024-12-24
 
 ---
@@ -32,18 +32,18 @@ These guide every decision. Refer to `Principles.md` for full details.
 - [x] Clone PAI repository to ~/PAI
 - [x] Create symlink: ~/.claude → ~/PAI/.claude
 - [x] Run bootstrap wizard: `~/.claude/Tools/setup/bootstrap.sh`
-- [ ] Reload shell: `source ~/.zshrc`
+- [x] Reload shell: `source ~/.zshrc`
 
 ---
 
 ## Phase 2: Configuration
 
 - [ ] Create .env from template: `cp ~/.claude/.env.example ~/.claude/.env`
-- [ ] Configure DA name in settings.json
-- [ ] Configure DA color in settings.json
+- [x] Configure DA name in settings.json — Synergy (done by bootstrap)
+- [x] Configure DA color in settings.json — blue (done by bootstrap)
 - [ ] Add ElevenLabs API key to .env
 - [ ] Add Google API key to .env (optional)
-- [ ] Verify environment variables: `echo $DA`
+- [x] Verify environment variables: `echo $DA` — returns "Synergy"
 
 ---
 
