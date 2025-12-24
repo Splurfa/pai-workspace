@@ -7,7 +7,7 @@ Deep-dive explanations of PAI concepts with concrete examples.
 ## Process
 
 1. Identify the concept being asked about
-2. Find relevant file(s) in `../PAI-reference/`
+2. Find relevant file(s) in `../PAI/`
 3. Read the authoritative documentation
 4. Explain in plain language with examples
 5. Connect to user's current progress
@@ -18,21 +18,21 @@ Deep-dive explanations of PAI concepts with concrete examples.
 ## Key Concepts Map
 
 ### Architecture & Philosophy
-- **13 Principles** → `PAI-reference/.claude/Skills/CORE/CONSTITUTION.md`
+- **13 Principles** → `PAI/.claude/Skills/CORE/CONSTITUTION.md`
 - **Why scaffolding matters** → CONSTITUTION.md Part I
 - **Deterministic vs probabilistic** → Principle 3
 
 ### The Four Primitives
-- **Skills** → `PAI-reference/.claude/Skills/CORE/SkillSystem.md`
-- **Agents** → `PAI-reference/.claude/Agents/*.md`
-- **Hooks** → `PAI-reference/.claude/Skills/CORE/HookSystem.md`
-- **Commands** → `PAI-reference/.claude/Commands/`
+- **Skills** → `PAI/.claude/Skills/CORE/SkillSystem.md`
+- **Agents** → `PAI/.claude/Agents/*.md`
+- **Hooks** → `PAI/.claude/Skills/CORE/HookSystem.md`
+- **Commands** → `PAI/.claude/Commands/`
 
 ### Systems
-- **UOCS/History** → `PAI-reference/.claude/Skills/CORE/HistorySystem.md`
-- **Voice** → `PAI-reference/.claude/voice-server/README.md`
-- **MCP** → `PAI-reference/.claude/.mcp.json`
-- **Fabric** → `PAI-reference/.claude/Skills/Fabric/`
+- **UOCS/History** → `PAI/.claude/Skills/CORE/HistorySystem.md`
+- **Voice** → `PAI/.claude/voice-server/README.md`
+- **MCP** → `PAI/.claude/.mcp.json`
+- **Fabric** → `PAI/.claude/Skills/Fabric/`
 
 ---
 
