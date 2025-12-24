@@ -1,0 +1,555 @@
+{
+  "event_type": "OrchestrationStart",
+  "orchestration_id": "orch-20251224-094431-48ec6061",
+  "timestamp": 1766598271000
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094431-48ec6061",
+  "timestamp": 1766598275000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094431-48ec6061",
+  "timestamp": 1766598275000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094431-48ec6061",
+  "timestamp": 1766598275000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094431-48ec6061",
+  "timestamp": 1766598321000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094431-48ec6061",
+  "timestamp": 1766598321000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094431-48ec6061",
+  "timestamp": 1766598321000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "OrchestrationStart",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598329000
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598443000,
+{
+  "phase": "verification",
+  "event_type": "PhaseComplete",
+  "duration_ms": "0"
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+}
+  "timestamp": 1766598443000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598443000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598444000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598444000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598444000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598451000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598451000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598451000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598457000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598457000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598457000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598482000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598482000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766598482000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599274000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599274000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599274000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599380000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599380000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599380000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599519000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599519000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599519000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599793000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599793000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599793000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599852000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599852000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599852000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599914000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599914000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599914000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599948000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599948000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766599948000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766600177000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766600177000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766600177000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766601049000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766601049000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-094529-22d22a54",
+  "timestamp": 1766601049000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "OrchestrationStart",
+  "orchestration_id": "orch-20251224-103335-3b267f5c",
+  "timestamp": 1766601215000
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-103335-3b267f5c",
+  "timestamp": 1766601219000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-103335-3b267f5c",
+  "timestamp": 1766601219000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-103335-3b267f5c",
+  "timestamp": 1766601219000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-103335-3b267f5c",
+  "timestamp": 1766601243000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-103335-3b267f5c",
+  "timestamp": 1766601243000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-103335-3b267f5c",
+  "timestamp": 1766601243000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "OrchestrationStart",
+  "orchestration_id": "orch-20251224-105256-ea5d6462",
+  "timestamp": 1766602376000
+}
+{
+{
+  "event_type": "PhaseComplete",
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-105256-ea5d6462",
+  "orchestration_id": "orch-20251224-105256-ea5d6462",
+  "timestamp": 1766602379000,
+  "timestamp": 1766602379000,
+  "phase": "verification",
+  "phase": "review",
+  "duration_ms": "0"
+  "duration_ms": "0"
+}
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-105256-ea5d6462",
+  "timestamp": 1766602379000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-105256-ea5d6462",
+  "timestamp": 1766602381000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-105256-ea5d6462",
+  "timestamp": 1766602381000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-105256-ea5d6462",
+  "timestamp": 1766602381000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "OrchestrationStart",
+  "orchestration_id": "orch-20251224-105305-d20223a6",
+  "timestamp": 1766602385000
+}
+{
+  "event_type": "PhaseComplete",
+{
+  "orchestration_id": "orch-20251224-105305-d20223a6",
+  "timestamp": 1766602778000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-105305-d20223a6",
+  "timestamp": 1766602778000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-105305-d20223a6",
+  "timestamp": 1766602778000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+{
+  "event_type": "PhaseComplete",
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-105305-d20223a6",
+  "orchestration_id": "orch-20251224-105305-d20223a6",
+  "timestamp": 1766602783000,
+  "timestamp": 1766602783000,
+  "phase": "verification",
+  "phase": "synthesis",
+  "duration_ms": "0"
+  "duration_ms": "0"
+}
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-105305-d20223a6",
+  "timestamp": 1766602783000,
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+{
+  "event_type": "PhaseComplete",
+  "event_type": "PhaseComplete",
+{
+  "orchestration_id": "orch-20251224-105305-d20223a6",
+  "timestamp": 1766602899000,
+  "event_type": "PhaseComplete",
+  "phase": "review",
+  "orchestration_id": "orch-20251224-105305-d20223a6",
+  "orchestration_id": "orch-20251224-105305-d20223a6",
+  "duration_ms": "0"
+  "timestamp": 1766602899000,
+}
+  "timestamp": 1766602899000,
+  "phase": "verification",
+  "phase": "synthesis",
+  "duration_ms": "0"
+  "duration_ms": "0"
+}
+}
+{
+{
+  "event_type": "PhaseComplete",
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-105305-d20223a6",
+  "orchestration_id": "orch-20251224-105305-d20223a6",
+  "timestamp": 1766603033000,
+  "phase": "verification",
+  "duration_ms": "0"
+  "timestamp": 1766603033000,
+}
+  "phase": "review",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-105305-d20223a6",
+  "timestamp": 1766603033000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "OrchestrationStart",
+  "orchestration_id": "orch-20251224-110446-39fa47e9",
+  "timestamp": 1766603086000
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-110446-39fa47e9",
+  "timestamp": 1766603560000,
+  "phase": "synthesis",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-110446-39fa47e9",
+  "timestamp": 1766603560000,
+  "phase": "verification",
+  "duration_ms": "0"
+}
+{
+  "event_type": "PhaseComplete",
+  "orchestration_id": "orch-20251224-110446-39fa47e9",
+  "timestamp": 1766603560000,
+  "phase": "review",
+  "duration_ms": "0"
+}
