@@ -31,7 +31,7 @@ These guide every decision. Refer to `Principles.md` for full details.
 - [x] Remove existing ~/.claude directory
 - [x] Clone PAI repository to ~/PAI
 - [x] Create symlink: ~/.claude → ~/PAI/.claude
-- [ ] Run bootstrap wizard: `~/.claude/Tools/setup/bootstrap.sh`
+- [x] Run bootstrap wizard: `~/.claude/Tools/setup/bootstrap.sh`
 - [ ] Reload shell: `source ~/.zshrc`
 
 ---
@@ -79,9 +79,9 @@ These guide every decision. Refer to `Principles.md` for full details.
 
 | Setting | Value |
 |---------|-------|
-| **DA Name** | |
-| **DA Color** | |
-| **Shell** | |
+| **DA Name** | Synergy |
+| **DA Color** | blue |
+| **Shell** | zsh |
 
 ---
 
